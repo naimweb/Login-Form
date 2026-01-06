@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.main-section {
+    display: flex;
+
+    height: 100vh;
+    justify-content: center;
+    
+    align-items: center;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+     width: 40%;
+     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: center;
+   
+    padding:40px;
+    background-color: rgb(240, 246, 234);
+}
+.heading h1 {
+    font-weight: bolder;
+    font-size: 20px;
+  text-align: center;
+  color: rgb(79, 41, 41);
+}
